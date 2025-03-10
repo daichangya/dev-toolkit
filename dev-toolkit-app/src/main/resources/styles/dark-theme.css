@@ -1,0 +1,247 @@
+.root {
+    -fx-background-color: #212529;
+    -fx-text-fill: #f8f9fa;
+}
+
+.text-area {
+    -fx-background-color: #343a40;
+    -fx-text-fill: #f8f9fa;
+    -fx-control-inner-background: #343a40;
+}
+
+.text-area .content {
+    -fx-background-color: #343a40;
+}
+
+.button {
+    -fx-background-color: #495057;
+    -fx-text-fill: #f8f9fa;
+    -fx-border-color: #6c757d;
+    -fx-border-radius: 4px;
+}
+
+.button:hover {
+    -fx-background-color: #6c757d;
+}
+
+.button:pressed {
+    -fx-background-color: #495057;
+}
+
+.split-pane {
+    -fx-background-color: #212529;
+    -fx-box-border: transparent;
+}
+
+.split-pane:horizontal > .split-pane-divider {
+    -fx-background-color: #495057;
+    -fx-padding: 0 0.25em 0 0.25em;
+}
+
+.label {
+    -fx-text-fill: #f8f9fa;
+}
+
+.text-field {
+    -fx-background-color: #343a40;
+    -fx-text-fill: #f8f9fa;
+    -fx-border-color: #6c757d;
+    -fx-border-radius: 4px;
+}
+
+.scroll-pane {
+    -fx-background-color: #212529;
+}
+
+.scroll-bar:vertical,
+.scroll-bar:horizontal {
+    -fx-background-color: #343a40;
+}
+
+.scroll-bar:vertical .thumb,
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: #495057;
+    -fx-background-radius: 4px;
+}
+
+.scroll-bar:vertical .thumb:hover,
+.scroll-bar:horizontal .thumb:hover {
+    -fx-background-color: #6c757d;
+}
+
+.code-area {
+    -fx-background-color: #343a40;
+}
+
+.code-area .text {
+    -fx-fill: #f8f9fa;
+}
+
+.lineno {
+    -fx-background-color: #212529;
+    -fx-text-fill: #6c757d;
+}
+
+.menu-bar {
+    -fx-background-color: #343a40;
+    -fx-border-color: #495057;
+}
+
+.menu-bar .menu {
+    -fx-background-color: transparent;
+}
+
+.menu-bar .menu:hover {
+    -fx-background-color: #495057;
+}
+
+.menu-bar .menu-item {
+    -fx-background-color: #343a40;
+}
+
+.menu-bar .menu-item:hover {
+    -fx-background-color: #495057;
+}
+
+.menu-bar .menu .label,
+.menu-bar .menu-item .label {
+    -fx-text-fill: #f8f9fa;
+}
+
+.context-menu {
+    -fx-background-color: #343a40;
+    -fx-border-color: #495057;
+}
+
+.tab-pane {
+    -fx-background-color: #212529;
+}
+
+.tab-pane .tab-header-area {
+    -fx-background-color: #212529;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: #343a40;
+}
+
+.tab-pane .tab {
+    -fx-background-color: #343a40;
+    -fx-border-color: #495057;
+    -fx-border-width: 0 0 1 0;
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #495057;
+}
+
+.tab-pane .tab .tab-label {
+    -fx-text-fill: #f8f9fa;
+}
+
+.tab-pane .tab-content-area {
+    -fx-background-color: #212529;
+}
+
+.tool-bar {
+    -fx-background-color: #343a40;
+    -fx-border-color: #495057;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 5px;
+}
+
+.tool-bar .button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.tool-bar .button:hover {
+    -fx-background-color: #495057;
+}
+
+.tool-bar .button:pressed {
+    -fx-background-color: #6c757d;
+}
+
+/* ColorPicker样式 */
+.color-picker {
+    -fx-background-color: #343a40;
+    -fx-border-color: #495057;
+    -fx-border-radius: 4px;
+}
+
+.color-picker .color-picker-label {
+    -fx-text-fill: #f8f9fa;
+}
+
+.color-picker:hover {
+    -fx-background-color: #495057;
+}
+
+.color-picker .color-palette {
+    -fx-background-color: #343a40;
+    -fx-border-color: #495057;
+}
+
+.color-picker .color-palette .color-square:hover {
+    -fx-effect: dropshadow(three-pass-box, #6c757d, 4, 0, 0, 0);
+}
+
+/* ComboBox样式 */
+.combo-box {
+    -fx-background-color: #343a40;
+    -fx-border-color: #495057;
+    -fx-border-radius: 4px;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: #343a40;
+    -fx-text-fill: #f8f9fa;
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: #495057;
+}
+
+.combo-box .list-view {
+    -fx-background-color: #343a40;
+    -fx-border-color: #495057;
+}
+
+.combo-box .arrow-button {
+    -fx-background-color: transparent;
+}
+
+.combo-box .arrow {
+    -fx-background-color: #f8f9fa;
+}
+
+.combo-box:hover {
+    -fx-background-color: #495057;
+}
+/* WebView样式 */
+.web-view {
+    -fx-background-color: #212529;
+}
+
+.web-view .web-page {
+    -fx-background-color: #212529;
+}
+
+.web-view .web-page .content {
+    -fx-background-color: #212529;
+    -fx-text-fill: #f8f9fa;
+}
+
+.web-view .web-page .content * {
+    -fx-background-color: #212529;
+    -fx-text-fill: #f8f9fa;
+}
+
+.web-view .web-page .content a {
+    -fx-text-fill: #0d6efd;
+}
+
+.web-view .web-page .content a:hover {
+    -fx-text-fill: #0a58ca;
+}

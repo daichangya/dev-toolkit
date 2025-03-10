@@ -1,0 +1,89 @@
+.root {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #333333;
+}
+
+.text-area {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #333333;
+    -fx-control-inner-background: #ffffff;
+}
+
+.text-area .content {
+    -fx-background-color: #ffffff;
+}
+
+.button {
+    -fx-background-color: #f8f9fa;
+    -fx-text-fill: #333333;
+    -fx-border-color: #dee2e6;
+    -fx-border-radius: 4px;
+}
+
+.button:hover {
+    -fx-background-color: #e9ecef;
+}
+
+.button:pressed {
+    -fx-background-color: #dee2e6;
+}
+
+.split-pane {
+    -fx-background-color: #ffffff;
+    -fx-box-border: transparent;
+}
+
+.split-pane:horizontal > .split-pane-divider {
+    -fx-background-color: #dee2e6;
+    -fx-padding: 0 0.25em 0 0.25em;
+}
+
+.label {
+    -fx-text-fill: #333333;
+}
+
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #dee2e6;
+    -fx-border-radius: 4px;
+}
+
+.scroll-pane {
+    -fx-background-color: #ffffff;
+}
+
+.scroll-bar:vertical,
+.scroll-bar:horizontal {
+    -fx-background-color: #ffffff;
+}
+
+.scroll-bar:vertical .thumb,
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: #dee2e6;
+    -fx-background-radius: 4px;
+}
+
+.scroll-bar:vertical .thumb:hover,
+.scroll-bar:horizontal .thumb:hover {
+    -fx-background-color: #ced4da;
+}
+
+.tool-bar {
+    -fx-background-color: #f8f9fa;
+    -fx-border-color: #dee2e6;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 5px;
+}
+
+.tool-bar .button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.tool-bar .button:hover {
+    -fx-background-color: #e9ecef;
+}
+
+.tool-bar .button:pressed {
+    -fx-background-color: #dee2e6;
+}
